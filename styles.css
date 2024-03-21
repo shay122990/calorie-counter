@@ -24,11 +24,14 @@ h1 {
 .container {
     width: 90%;
     max-width: 680px;
-    padding: 30px 20px;
+    padding: 30px 50px;
     border-radius: 64px;
     background: var(--light-grey);
     box-shadow:  39px 39px 79px #bababa,
                  -39px -39px 79px #ffffff;
+}
+p{
+    color: var(--dark-gray);
 }
 
 h1,
@@ -83,7 +86,7 @@ select {
 
 .output {
     border: 2px solid var(--light-grey);
-    padding: 10px;
+    /* padding: 10px; */
     text-align: center;
 }
 
@@ -94,6 +97,7 @@ select {
 .output span {
     font-weight: bold;
     font-size: 1.2em;
+    margin-bottom:0;
 }
 
 .surplus {
